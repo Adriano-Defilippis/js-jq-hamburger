@@ -52,7 +52,7 @@ header {
 .hamburger-menu {
     position: absolute;
     top: 0;
-    left: 0;
+    right: 0;
     display: none;
     padding: 20px;
     width: 100%;
@@ -68,6 +68,12 @@ header {
     justify-content: space-around;
     align-items: flex-start;
     list-style: none;
+}
+
+.hamburger-menu ul li{
+
+  text-decoration: none;
+
 }
 .hamburger-menu ul li a {
     color: white;
@@ -98,7 +104,11 @@ header {
         font-size: 20px;
     }
 
-    .hamburger-menu.active {
-        display: block;
+    .hamburger-menu {
+        display: none;
     }
+
+    /* .hamburger-menu.active {
+        display: block;
+    } */
 }
