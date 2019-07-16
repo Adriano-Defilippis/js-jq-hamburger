@@ -7,9 +7,16 @@ var hamburgerListClose = $(".close");
 console.log(hamburgerList);
 
 //Azione click sull'icona dell'amburgher per far apparire il menù nascosto
-hamburgerList.click(function(){
+hamburgerList.on({
 
-  $(".hamburger-menu").fadeIn();
+  click: function(){
+
+    $(".hamburger-menu").fadeIn();
+    $(".hamburger-menu").css({ 'min-width' : "25vw", "width" : "25%", "min-height" : "50vh", "height" : "50%"});;
+
+    // $(".hamburger-menu").css("width", "25vh");
+
+  }
 
 
 });
