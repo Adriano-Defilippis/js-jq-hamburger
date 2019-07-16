@@ -12,6 +12,8 @@ hamburgerList.on({
   click: function(){
 
     $(".hamburger-menu").fadeIn();
+
+    //Aggiunta Classi per ridimensinare il div nascosto
     $(".hamburger-menu").css({ 'min-width' : "25vw", "width" : "25%", "min-height" : "50vh", "height" : "50%"});;
 
     // $(".hamburger-menu").css("width", "25vh");
