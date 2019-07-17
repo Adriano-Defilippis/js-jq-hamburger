@@ -25,10 +25,10 @@ hamburgerListClose.click(function(){
 
 });
 
-function resize(){
-  if ($(document).width() >= 1000 ) {
-    $(".hamburger-menu").css({ 'display' : "none"});
-  }
-}
-
-$(".hamburger-menu").resize();
+// function resize(){
+//   if ($(document).width() >= 1000 ) {
+//     $(".hamburger-menu").css({ 'display' : "none"});
+//   }
+// }
+//
+// $(".hamburger-menu").resize();
