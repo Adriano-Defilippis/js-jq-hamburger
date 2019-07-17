@@ -108,7 +108,7 @@ header {
         display: none;
     }
 
-    /* .hamburger-menu.active {
+    .hamburger-menu.active {
         display: block;
-    } */
+    }
 }
